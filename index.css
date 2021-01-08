@@ -1,0 +1,31 @@
+
+.list-catelogy,.show-detail-catelogy
+.list-catelogy .product-box,
+.show-detail-catelogy.product-box,
+.list-catelogy .product-box a,
+.show-detail-catelogy .product-box a,
+.list-catelogy .product-box a figure ,
+.show-detail-catelogy.product-box a figure {
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #333;
+}
+.list-catelogy, .show-detail-catelogy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list-catelogy .product-box,
+..show-detail-catelogy .product-box{
+    width: calc((100% / 4) - 25px);
+    margin-top: 1.5rem;
+}
+
+
+.list-catelogy .product-box a figure figcaption,
+.show-detail-catelogy .product-box a figure figcaption{
+    font-size: 20px;
+    font-weight: 700;
+}
